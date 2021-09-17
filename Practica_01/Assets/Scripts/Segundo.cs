@@ -4,18 +4,27 @@ using UnityEngine;
 
 public class Segundo : MonoBehaviour
 {
-    int numero = 0;
+    int ejem1 = 5;
+    int ejem2 = 5;
+    int ejem3;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        for (numero = 0; numero < 10; numero ++)
+        int ejem3 = ejem1 + ejem2;
+        if (ejem3 < 10)
         {
-         
-            print(numero);
+            print("Estas muerto");
         }
-
+        else if (ejem3 > 10)
+        {
+            print("Estas vivo");
+        }
+        else
+        {
+            print("A saber como estas");
+        }
 
 
 
