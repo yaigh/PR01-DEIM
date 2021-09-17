@@ -2,29 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Primero : MonoBehaviour
+public class Segundo : MonoBehaviour
 {
-    int ejem1 = 4;
-    int ejem2 = 7;
-    int ejem3;
-
+    int numero = 0;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        int ejem3 = ejem1 + ejem2;
-        switch (ejem3 < 10)
+        for (numero = 0; numero < 10; numero ++)
         {
-            print("no");
+         
+            print(numero);
         }
-        
-    }
 
+
+
+
+    }
 
     // Update is called once per frame
     void Update()
     {
-       
+        
     }
 }
