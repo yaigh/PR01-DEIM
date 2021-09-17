@@ -4,29 +4,18 @@ using UnityEngine;
 
 public class Segundo : MonoBehaviour
 {
-    int ejem1 = 5;
-    int ejem2 = 5;
-    int ejem3;
+    private int aleatorio;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-        int ejem3 = ejem1 + ejem2;
-        if (ejem3 < 10)
+        while (aleatorio != 10)
         {
-            print("Estas muerto");
+            aleatorio = Random.Range(0, 20);
+            print("El numero es" + aleatorio);
         }
-        else if (ejem3 > 10)
-        {
-            print("Estas vivo");
-        }
-        else
-        {
-            print("A saber como estas");
-        }
-
-
 
     }
 
