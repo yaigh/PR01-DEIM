@@ -16,37 +16,19 @@ public class Primero : MonoBehaviour
     int ejem2 = 5;
     int ejem3;
 
+    public int var1 = 3;
+    public int var2 = 6;
+    public int var3;
 
     // Start is called before the first frame update
     void Start()
     {
-        // Variable float
-        float mensaje3 = mensaje1 - mensaje2;
-        print(mensaje3);
-
-
-        // Variable string
-        string men3 = men1 + men2;
-        print(men3);
-
-
-        //Estructura de control 
        
-        int ejem3 = ejem1 + ejem2;
-        if (ejem3 < 10)
-        {
-            print ("Estas muerto");
-        }
-        else if (ejem3 > 10)
-        {
-            print("Estas vivo");
-        }
-        else 
-        {
-            print("A saber como estas");
-        }
-        
-        
+        //Ambito publico
+
+        int var3 = var1 * var2;
+        print(var3);
+
     }
 
 
