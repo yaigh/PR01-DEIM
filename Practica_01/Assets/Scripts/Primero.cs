@@ -21,13 +21,13 @@ public class Primero : MonoBehaviour
     void Start()
     {
         // Variable float
-        // float mensaje3 = mensaje1 - mensaje2;
-        //print(mensaje3);
+        float mensaje3 = mensaje1 - mensaje2;
+        print(mensaje3);
 
 
         // Variable string
-        //string men3 = men1 + men2;
-        //print(men3);
+        string men3 = men1 + men2;
+        print(men3);
 
 
         //Estructura de control 
