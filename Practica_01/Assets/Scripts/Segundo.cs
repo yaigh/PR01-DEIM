@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class Segundo : MonoBehaviour
 {
-    private int aleatorio;
-
+    void Saludo (string hola)
+    {
+        print("hola" + hola);
+    }
 
 
     // Start is called before the first frame update
     void Start()
     {
-        while (aleatorio != 10)
-        {
-            aleatorio = Random.Range(0, 20);
-            print("El numero es" + aleatorio);
-        }
+        Saludo("gente");
+        Saludo("chicos");
+
 
     }
 
